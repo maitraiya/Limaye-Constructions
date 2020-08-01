@@ -1,6 +1,6 @@
 .parallax {
     background-image: url("../Assets/images/about-us-main.jpg");
-    min-height: 100%;
+    min-height: 120%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
