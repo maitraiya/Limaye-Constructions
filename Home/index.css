@@ -1,3 +1,6 @@
+.sub-title{
+    font-size: 12;
+}
 .parallax {
     background-image: url("../Assets/images/contact-us-main.jpg");
     min-height: 120%;
@@ -12,7 +15,6 @@
     position: relative;
     text-align: center;
     color: white;
-    filter: brightness(60%);
 }
 
 .centered {
