@@ -1,0 +1,24 @@
+.footer {
+    background-image: url("../images/footer-main.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.footer-heading {
+    font-weight: 700;
+    color: white;
+    font-family: Montserrat;
+}
+
+.description {
+    padding: 20px;
+    font-weight: bold;
+    font-family: Montserrat;
+    color: gray;
+    letter-spacing: 2px;
+    line-height: 2;
+}
