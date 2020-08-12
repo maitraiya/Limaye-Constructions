@@ -27,7 +27,7 @@
     transform: translate(-50%, -50%);
 }
 
-.whiteDiv {
+.grayDiv {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #F4F4F4;
@@ -51,4 +51,8 @@
 .keyword {
     font-weight: 1000;
     color: black;
+}
+.dimg{
+-webkit-box-reflect: below 8px -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.4)));
+border-radius:25px;
 }
