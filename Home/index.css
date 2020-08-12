@@ -1,3 +1,7 @@
+html *
+{
+   font-family: Montserrat !important;
+}
 .sub-title{
     font-size: 12;
 }
