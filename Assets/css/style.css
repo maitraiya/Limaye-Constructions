@@ -1,6 +1,20 @@
 html * {
   font-family: Montserrat !important;
 }
+/* Navbar */
+nav div  {
+  color: white;
+}
+nav a  {
+  color: white;
+}
+nav a:hover  {
+  color: black;
+}
+nav {
+  background-color: blue;
+}
+
 
 .parallax {
   background-image: url("../images/contact-us-main.jpg");
@@ -70,4 +84,19 @@ html * {
 
 .sub-title {
   font-size: 12;
+}
+
+/* footer */
+.footer2 {
+  padding: 40px;
+  background-color: blue;
+  color: white;
+}
+
+.footer2 a {
+  color: #f4f4f4;
+}
+
+.footer2 a:hover {
+  color:black;
 }
