@@ -19,13 +19,13 @@
         new WOW().init();
     </script>
     <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-light">
     <div>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="index.html">
                 <div class="col">
                     <div class="row">
@@ -56,9 +56,12 @@
                             About us
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="about-us.html#overview">1. Company overview</a>
-                            <a class="dropdown-item" href="about-us.html#managementTeam">2. Management team</a>
-                            <a class="dropdown-item" href="about-us.html#history">3. History</a>
+                            <a class="dropdown-item" href="about-us.html#overview">1. Company Overview</a>
+                            <a class="dropdown-item" href="about-us.html#safety">2. Safety Department</a>
+                            <a class="dropdown-item" href="about-us.html#managementTeam">3. Staff Strength</a>
+                            <a class="dropdown-item">4. Tools</a>
+                            <a class="dropdown-item">5. Legal & Commercial Info</a>
+                            <a class="dropdown-item" href="about-us.html#history">6. History</a>
                         </div>
                     </li>
 
@@ -88,6 +91,7 @@
             <div class="centered">Who We Are</div>
         </div>
 
+        <!-- Company overview -->
         <div id="overview" class="grayDiv wow fadeInLeft">
             <div class="row text-center mx-4">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -134,6 +138,37 @@
                 </div>
             </div>
         </div>
+        <!-- Company overview end-->
+
+        <!-- safety department -->
+        <div id="safety" class="container">
+            <div class="card">
+                <div class="row">
+                    <div class="col">
+                        <div class="card-body">
+                            <h5 class="card-title">OUR SAFETY DEPARTMENT</h5>
+                            <p class="card-text">Bhau Patil Shelke</p>
+                            <p class="card-text">7972258942</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid center" src="./Assets/images/avatar.png" height="200" width="200">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- safety department end -->
+
+        <!-- staff strength -->
+        <!-- staff strength end -->
+
+        <!-- tools -->
+        <!-- tools end -->
+
+        <!-- legal and commercial -->
+        <!-- legal and commercial end -->
+
+        <!-- management team -->
         <div id="managementTeam" class="whiteDiv wow fadeInRight">
             <div class="row text-center mx-4">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -158,6 +193,9 @@
                 </div>
             </div>
         </div>
+        <!-- management team end-->
+
+        <!-- history -->
         <div id="history" class="grayDiv wow fadeInLeft">
             <div class="row text-center mx-4">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -178,6 +216,42 @@
                 </div>
             </div>
         </div>
+        <!-- history end-->
+
+        <!-- timeline -->
+        <div id="timeline" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                        <div class="card-body">
+                            <div id="content">
+                                <ul class="timeline">
+                                    <li class="event" data-date="1999">
+                                        <h3>Registration</h3>
+                                        <p>Get here on time, it's first come first serve. Be late, get turned away.</p>
+                                    </li>
+                                    <li class="event" data-date="2002">
+                                        <h3>Opening Ceremony</h3>
+                                        <p>Get ready for an exciting event, this will kick off in amazing fashion with
+                                            MOP &amp; Busta Rhymes as an opening show.</p>
+                                    </li>
+                                    <li class="event" data-date="2006">
+                                        <h3>Main Event</h3>
+                                        <p>This is where it all goes down. You will compete head to head with your
+                                            friends and rivals. Get ready!</p>
+                                    </li>
+                                    <li class="event" data-date="2010">
+                                        <h3>Closing Ceremony</h3>
+                                        <p>See how is the victor and who are the losers. The big stage is where the
+                                            winners bask in their own glory.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- timeline end -->
+        <!-- Footer -->
         <div id="footer" class="footer px-4 py-4">
             <div class="row text-left my-4 mx-4">
                 <h3 class="footer-heading">Our Contacts</h3>
@@ -198,6 +272,8 @@
 
 
         </div>
+        <!-- Footer end-->
+
 
 </body>
 
