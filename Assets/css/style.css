@@ -1,6 +1,10 @@
 html * {
   font-family: Montserrat !important;
 }
+.img-fluid {
+  max-width: 80%;
+  height: 56px;
+}
 /* Navbar */
 nav div {
   color: white;
