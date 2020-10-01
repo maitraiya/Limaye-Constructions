@@ -18,6 +18,27 @@ nav a:hover {
 nav {
   background-color: blue;
 }
+.safety-point{
+  padding: 12px;
+  text-align: center;
+}
+
+.about-section-title {
+  font-size:5vw;
+}
+
+.tool {
+  height: 107px;
+  width: 100%;
+}
+
+.tool-name {
+  padding: 0.50rem;
+}
+
+.tool-section .card {
+  margin-top: 20px;
+}
 
 .parallax {
   background-image: url("../images/contact-us-main.jpg");
