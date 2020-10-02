@@ -1,6 +1,9 @@
 html * {
   font-family: Montserrat !important;
 }
+.material-icons{
+ font-family: 'Material Icons'!important;
+}
 .logo {
   max-width: 80%;
   height: 56px;
@@ -16,7 +19,7 @@ nav a:hover {
   color: black;
 }
 nav {
-  background-color: blue;
+//  background-color: blue;
 }
 .safety-point{
   padding: 12px;
