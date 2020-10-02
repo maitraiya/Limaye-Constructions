@@ -40,6 +40,10 @@ nav {
   margin-top: 20px;
 }
 
+.tool-section {
+  margin-bottom: 20px;
+}
+
 .parallax {
   background-image: url("../images/contact-us-main.jpg");
   min-height: 120%;
